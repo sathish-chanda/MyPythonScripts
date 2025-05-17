@@ -1,0 +1,5 @@
+# Build the Docker image
+docker build -t web-scraper .
+
+# Run the container
+docker run --rm web-scraper
